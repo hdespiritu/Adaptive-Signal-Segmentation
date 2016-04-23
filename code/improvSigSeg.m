@@ -11,7 +11,7 @@
 %   savGolSegments: segment boundaries for Savitzky-Golay filtered signal
 %   movAvgSegments: segment boundaries for Moving Average filtered signal
 %
-%% 
+
 function [savGolSegments, movAvgSegments] = improvSigSeg(eegSignal, time, fs)
 %Moving Avg Filter
 % x(n) = 0.2[x(n-4) + x(n-3) + x(n-2) + x(n-1) + x(n)]
